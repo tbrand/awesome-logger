@@ -17,7 +17,7 @@ module AwesomeLogger
     end
 
     private def out(tag : String, message : String, io : IO)
-      io.puts "[ #{time} -- #{tag} ] #{message}"
+      io.puts "[ #{time} | #{tag} ] #{message}"
     end
 
     private def tag(t : String)

@@ -1,7 +1,7 @@
 # Awesome Logger
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/3483230/42730856-a8702ba4-883b-11e8-8025-4e2b235ad92b.png" width="800" />
+  <img src="https://user-images.githubusercontent.com/3483230/42730875-67eabdd2-883c-11e8-8e3b-2a85b10ca384.png" width="800" />
 </h1>
 
 <p align="center">
