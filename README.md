@@ -1,6 +1,12 @@
 # Awesome Logger
 
-**Awesome Logger is SIMPLE and FLEXIBLE logger for Crystal applications.**
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/3483230/42730856-a8702ba4-883b-11e8-8025-4e2b235ad92b.png" width="400" />
+</h1>
+
+<p align="center">
+  <b>Awesome Logger is SIMPLE and FLEXIBLE logger for Crystal applications.**</b>
+</p>
 
 :star: It aims to be a standard logger in Crystal world. :star:
 
