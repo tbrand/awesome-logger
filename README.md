@@ -32,7 +32,8 @@ require "logger"
 
 See `example/` for basic usages.
 ```crystal
-Logger.debug("this is a debug message")
+L.debug("this is a debug message")
+# L.d("your message") for short
 ```
 
 ### Control log level
@@ -40,7 +41,7 @@ Logger.debug("this is a debug message")
 You can set log level by
 ```crystal
 # The level is one of :debug, :info, :warning, :error or :fatal
-Logger.set_level(:debug)
+L.set_level(:debug)
 ```
 
 You can override the level by set env var of `CR_LOG_LEVEL`.

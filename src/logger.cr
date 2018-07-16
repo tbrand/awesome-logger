@@ -1,7 +1,7 @@
 require "./theme"
 require "./handlers"
 
-class Logger
+class L
   LEVEL_ENV_VAR = "CR_LOG_LEVEL"
 
   @@level    : Symbol = :debug
@@ -76,6 +76,4 @@ class Logger
   end
 end
 
-alias L = Logger
-
-Logger.register(AwesomeLogger::DefaultHandler.new)
+L.register(AwesomeLogger::DefaultHandler.new)

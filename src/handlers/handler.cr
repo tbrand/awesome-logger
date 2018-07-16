@@ -23,7 +23,7 @@ module AwesomeLogger
     end
 
     def level : Symbol
-      Logger.level
+      L.level
     end
   end
 end

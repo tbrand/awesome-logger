@@ -32,7 +32,7 @@ webhook_url =
 #
 # Register slack handler into logger
 #
-Logger.register(SlackHandler.new(webhook_url))
-Logger.error("This is an awesome error!")
+L.register(SlackHandler.new(webhook_url))
+L.error("This is an awesome error!")
 
 sleep
