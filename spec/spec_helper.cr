@@ -1,2 +1,2 @@
 require "spec"
-require "../src/logger"
+require "../src/awesome-logger"

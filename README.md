@@ -27,13 +27,13 @@ dependencies:
 ## Usage
 
 ```crystal
-require "logger"
+require "awesome-logger"
 ```
 
 See `example/` for basic usages.
 ```crystal
-L.debug("this is a debug message")
-# L.d("your message") for short
+Logger.debug("this is a debug message")
+# Logger.d("your message") for short
 ```
 
 ### Control log level
@@ -41,7 +41,7 @@ L.debug("this is a debug message")
 You can set log level by
 ```crystal
 # The level is one of :debug, :info, :warning, :error or :fatal
-L.set_level(:debug)
+Logger.set_level(:debug)
 ```
 
 You can override the level by set env var of `CR_LOG_LEVEL`.

@@ -1,4 +1,4 @@
-require "../src/logger"
+require "../src/awesome-logger"
 
 L.set_level(:debug)
 

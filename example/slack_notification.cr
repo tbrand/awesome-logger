@@ -1,4 +1,4 @@
-require "../src/logger"
+require "../src/awesome-logger"
 
 require "http/client"
 require "json"
